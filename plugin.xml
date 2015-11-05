@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+        id="com.resource.list.handler"
+        version="1.0.0">
+
+  <name>ResourseHandler</name>
+  <author>Pavel Durov</author>
+  <keywords>something</keywords>
+  <license>Apache 2.0</license>
+  <description>Nothing special just iterating list and storing data in local folder</description>
+
+
+  <!--windows-->
+  <platform name="windows">
+
+
+
+    <js-module src="src/windows/cacheHandler.js" name="resourceHandlerProxy">
+      <clobbers target="window.cacheHandler" />
+      <merges target="" />
+    </js-module>
+
+
+    
+  </platform>
+
+</plugin>
