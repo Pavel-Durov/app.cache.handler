@@ -4,9 +4,9 @@
         id="com.resource.list.handler"
         version="1.0.0">
 
-  <name>ResourseHandler</name>
+  <name>app-cache-handler</name>
   <author>Pavel Durov</author>
-  <keywords>something</keywords>
+  <keywords>nada</keywords>
   <license>Apache 2.0</license>
   <description>Nothing special just iterating list and storing data in local folder</description>
 
