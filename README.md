@@ -1,7 +1,7 @@
 This plugin originaly created as I was developing Cordova app for Windows 8.1 platform as a target. The main issue was that the webView of that version (v2.0) didn't support html appcache feature. 
-So I wrote this plugin inorder to iterate over the appcache file list and download one by one to application local folder.
+So I wrote this plugin in order to iterate over the appcache list and download one by one the files to application local folder.
 
-Whis plugin can be used for any list of files that needed to download:
+However, This plugin can be used for any list of files that needed to download, sumply replace the values which set with const keys.
 
 Usage:
 
@@ -9,7 +9,7 @@ Usage:
 1. Install the plugin.
 
 2. 
-			var url = "This-Is-The-Url-Of-The-App-Cache";
+	    var url = "This-Is-The-Url-Of-The-App-Cache";
             var envelope = {}
             envelope[window.cacheHandler.constKeys.URL] = url;
 			
